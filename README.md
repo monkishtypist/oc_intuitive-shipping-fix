@@ -9,4 +9,4 @@ Upload the `intuitiveshipfix.ocmod.zip` file found in `/zip/` directory.
 
 Go to *Extensions* > *Modifications* and hit the Refresh button for the modification to be applied.
 
-Credit: (iSenseLabs)[https://isenselabs.com/posts/free-shipping-only-opencart-3x]
+Credit: [iSenseLabs](https://isenselabs.com/posts/free-shipping-only-opencart-3x)
