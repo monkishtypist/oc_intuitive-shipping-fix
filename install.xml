@@ -1,0 +1,20 @@
+<modification>
+	<name>Show Intuitive Shipping Only</name>
+	<version>1.0 (Initial)</version>
+	<link><a class="vglnk" href="https://github.com/monkishtypist/oc_intuitive-shipping-fix" rel="nofollow"><span>https</span><span>://</span><span>github</span><span>.</span><span>com</span><span>/</span><span>monkishtypist</span><span>/</span><span>oc_intuitive-shipping-fix</span></a></link>
+	<author>MonkishTypist</author>
+	<code>monkishtypist_intuitiveshiponly</code>
+
+	<file path="catalog/model/extension/shipping/*.php">
+		<operation error="skip">
+			<search><![CDATA[if ($status) {]]></search>
+			<add position="before"><![CDATA[
+			if ($this->config->get('ModelExtensionShippingIntuitiveShipping')) {
+				if (get_class($this)!='ModelExtensionShippingIntuitiveShipping') {
+					$status = false;
+				}
+			}
+			]]></add>
+		</operation>
+	</file>
+</modification>
