@@ -5,7 +5,7 @@
 
 Go to your OpenCart 2.3.x admin panel and go to *Extensions* > *Installer*.
 
-Upload the `intuitiveshipfix.ocmod.zip` file found in `/zip/` directory.
+Upload the `intuitiveshippingfix.ocmod.zip` file.
 
 Go to *Extensions* > *Modifications* and hit the Refresh button for the modification to be applied.
 
